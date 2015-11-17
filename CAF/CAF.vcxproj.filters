@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{1433da22-e063-48ab-9742-e68325fea3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{4ee41d24-7574-4406-b40e-e98c9b2e5d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\app">
+      <UniqueIdentifier>{2b1faa23-fded-48e0-994b-e92ac228edc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\util">
+      <UniqueIdentifier>{11976d8c-be47-4f64-abe7-6d233308cf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\manager">
+      <UniqueIdentifier>{588d0fd7-a891-46b3-84e5-4ab8ab132aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\manager">
+      <UniqueIdentifier>{eb762c43-d01c-42a8-b86a-303a921580b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="caf_logger.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="caf_exception.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="caf_mutex.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="caf_error.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="caf_shareable.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="caf_application.h">
+      <Filter>include\app</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_logger.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_singleton.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_common.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_log_manager.h">
+      <Filter>include\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_exception.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_autoptr.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_shareable.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_mutex.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_error.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_time.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_guard.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
