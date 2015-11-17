@@ -54,6 +54,9 @@
     <ClCompile Include="caf_shareable.cpp">
       <Filter>src\util</Filter>
     </ClCompile>
+    <ClCompile Include="caf_epoller.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="caf_application.h">
@@ -90,6 +93,9 @@
       <Filter>include\util</Filter>
     </ClInclude>
     <ClInclude Include="caf_guard.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="caf_epoller.h">
       <Filter>include\util</Filter>
     </ClInclude>
   </ItemGroup>

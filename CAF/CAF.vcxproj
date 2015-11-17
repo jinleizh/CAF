@@ -121,6 +121,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="caf_epoller.cpp" />
     <ClCompile Include="caf_error.cpp" />
     <ClCompile Include="caf_logger.cpp" />
     <ClCompile Include="caf_mutex.cpp" />
@@ -132,6 +133,7 @@
   <ItemGroup>
     <ClInclude Include="caf_application.h" />
     <ClInclude Include="caf_autoptr.h" />
+    <ClInclude Include="caf_epoller.h" />
     <ClInclude Include="caf_error.h" />
     <ClInclude Include="caf_exception.h" />
     <ClInclude Include="caf_guard.h" />
