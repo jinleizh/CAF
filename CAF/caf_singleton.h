@@ -19,6 +19,9 @@ namespace CAF {
 					}
 
 					_pInstance = new T;
+
+					//main执行结束后调用释放
+					atexit(&destroyInstance);
 				}
 
 				return (T*)_pInstance;
