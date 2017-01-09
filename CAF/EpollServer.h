@@ -1,0 +1,6 @@
+namespace CAF {
+	class EpollServer {
+		
+	};
+
+}
