@@ -22,8 +22,7 @@ namespace CAF
 	{}
 
 	void Application::init()
-	{
-		//日志初始化
+	{	
 		LogManager::getInstance()->init();
 	}
 }
